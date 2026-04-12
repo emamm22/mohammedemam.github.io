@@ -1,0 +1,166 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+header, footer {
+    background-color: rgb(3, 3, 107);
+    color: white;
+
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(25px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25),inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+}
+nav a {
+    color: rgb(3, 3, 107);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: rgba(3, 3, 141, 0.2);
+}
+body {
+    background: linear-gradient(135deg, #052281, #ffffff);
+    min-height: 100vh;
+}
+header {
+    background: transparent;
+}
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+
+    border-radius: 50px;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+footer {
+    background-color: rgb(3, 3, 107);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+section {
+    padding: 40px;
+}
+main{
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #000066;
+    transform: scale(1.05);
+}
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+th {
+    background-color: rgb(3, 3, 107);
+    color: white;
+    padding: 12px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+tr:hover {
+    background-color: #95a9e0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+form {
+    width: 40%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000066;
+}
+.gender {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.gender label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
