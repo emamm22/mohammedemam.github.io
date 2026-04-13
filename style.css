@@ -162,18 +162,3 @@ button:hover {
     gap: 8px;
     cursor: pointer;
 }
-body {
-    font-sie: 18px;
-}
-h1 {
-    font-size: 2.5rem
-}
-h2 {
-    font-size: 2rem
-}
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: center;
-}
