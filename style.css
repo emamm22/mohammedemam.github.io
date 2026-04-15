@@ -220,3 +220,14 @@ button, input[type="submit"] {
     border: none;
     font-size: 16px;
 }
+form {
+    padding: 25px;
+}
+
+input {
+    padding: 12px;
+}
+input[type="submit"] {
+    background: linear-gradient(45deg, #2196f3, #21cbf3);
+    font-weight: bold;
+}
