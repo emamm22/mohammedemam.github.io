@@ -231,3 +231,19 @@ input[type="submit"] {
     background: linear-gradient(45deg, #2196f3, #21cbf3);
     font-weight: bold;
 }
+form {
+    background: none;
+    box-shadow: none;
+    padding: 20px;
+}
+input {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+}
+label, h1 {
+    color: white;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
